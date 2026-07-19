@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lima Hideout — Villa de Diseño Ecológico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="nav" id="nav">
+        <a href="#" class="nav__logo">LIMA STUDIO</a>
+        <ul class="nav__links" id="navLinks">
+            <li><a href="#proyecto">Proyecto</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="nav__burger" id="burger" aria-label="Menú">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- MOBILE OVERLAY -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#proyecto">Proyecto</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+        <div class="hero__bg">
+            <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=1920&q=80" alt="Villa en la naturaleza" id="heroImg">
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <div class="hero__tags">
+                <span>Vivienda Sostenible</span>
+                <span>Bali, Indonesia</span>
+                <span>320 m²</span>
+            </div>
+            <h1 class="hero__title">Lima<br>Hideout</h1>
+            <p class="hero__sub">Refugio ecológico diseñado para reconectar con la naturaleza</p>
+            <a href="#proyecto" class="hero__cta">Ver Proyecto</a>
+        </div>
+        <div class="hero__scroll">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- PROJECT INFO -->
+    <section class="info" id="proyecto">
+        <div class="info__grid">
+
+            <div class="info__details" data-reveal>
+                <div class="info__row">
+                    <span class="info__label">Ubicación</span>
+                    <span class="info__val">Bali Este, Indonesia</span>
+                </div>
+                <div class="info__row">
+                    <span class="info__label">Tipo</span>
+                    <span class="info__val">Villa Ecológica</span>
+                </div>
+                <div class="info__row">
+                    <span class="info__label">Superficie</span>
+                    <span class="info__val">320 m²</span>
+                </div>
+                <div class="info__row">
+                    <span class="info__label">Año</span>
+                    <span class="info__val">2024</span>
+                </div>
+                <div class="info__row">
+                    <span class="info__label">Arquitecto</span>
+                    <span class="info__val">Lima Studio</span>
+                </div>
+                <div class="info__row">
+                    <span class="info__label">Estado</span>
+                    <span class="info__val">Construido</span>
+                </div>
+            </div>
+
+            <div class="info__text" data-reveal>
+                <h2>Una conversación<br>con la selva</h2>
+                <p>Lima Hideout nace del deseo de crear un espacio habitable que no imponga sobre el paisaje, sino que fluya con él. Cada módulo de bambú fue tallado artesanalmente por artesanos locales, preservando técnicas centenarias.</p>
+                <p>La estructura orgánica abraza los árboles existentes, permitiendo que la vegetación crezca a través de los patios interiores. La ventilación cruzada natural elimina la necesidad de climatización, mientras que los paneles solares integrados en el techo de hojas proporcionan energía autónoma.</p>
+                <a href="#contacto" class="btn">Consultar Proyecto</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FULL WIDTH IMAGE -->
+    <section class="showcase" data-reveal>
+        <div class="showcase__wrap">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80" alt="Vista de la villa">
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="features__grid">
+
+            <div class="features__card" data-reveal>
+                <div class="features__icon">
+                    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M24 4C13 4 4 13 4 24s9 20 20 20 20-9 20-20S35 4 24 4z"/>
+                        <path d="M24 4v40M4 24h40"/>
+                        <path d="M24 4c5 5 8 12 8 20s-3 15-8 20"/>
+                        <path d="M24 4c-5 5-8 12-8 20s3 15 8 20"/>
+                    </svg>
+                </div>
+                <h3>Diseño Orgánico</h3>
+                <p>Formas curvas que dialogan con la topografía del terreno sin alterarla</p>
+            </div>
+
+            <div class="features__card" data-reveal>
+                <div class="features__icon">
+                    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 40V20l16-12 16 12v20"/>
+                        <path d="M18 40V28h12v12"/>
+                        <path d="M2 20l22-16 22 16"/>
+                    </svg>
+                </div>
+                <h3>Materiales Locales</h3>
+                <p>Bambú certificado, madera reciclada y piedra volcánica de la región</p>
+            </div>
+
+            <div class="features__card" data-reveal>
+                <div class="features__icon">
+                    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="24" cy="14" r="10"/>
+                        <path d="M24 24v20"/>
+                        <path d="M16 32l8-8 8 8"/>
+                        <path d="M10 44h28"/>
+                        <path d="M18 8l6-4 6 4"/>
+                    </svg>
+                </div>
+                <h3>Energía Renovable</h3>
+                <p>Solar integrada, sistema de captación de agua lluvia y compostaje</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="galeria">
+        <div class="gallery__head" data-reveal>
+            <h2>Galería del Proyecto</h2>
+            <div class="gallery__line"></div>
+        </div>
+        <div class="gallery__grid">
+            <div class="gallery__item gallery__item--wide" data-reveal>
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&q=80" alt="Exterior">
+                <div class="gallery__label"><span>Vista Exterior</span></div>
+            </div>
+            <div class="gallery__item" data-reveal>
+                <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Sala">
+                <div class="gallery__label"><span>Sala Principal</span></div>
+            </div>
+            <div class="gallery__item" data-reveal>
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Terraza">
+                <div class="gallery__label"><span>Terraza</span></div>
+            </div>
+            <div class="gallery__item" data-reveal>
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80" alt="Jardín">
+                <div class="gallery__label"><span>Jardín Tropical</span></div>
+            </div>
+            <div class="gallery__item gallery__item--wide" data-reveal>
+                <img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=900&q=80" alt="Piscina">
+                <div class="gallery__label"><span>Piscina Natural</span></div>
+            </div>
+            <div class="gallery__item" data-reveal>
+                <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&q=80" alt="Dormitorio">
+                <div class="gallery__label"><span>Dormitorio</span></div>
+            </div>
+            <div class="gallery__item" data-reveal>
+                <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=600&q=80" alt="Baño">
+                <div class="gallery__label"><span>Spa & Bienestar</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote" data-reveal>
+        <blockquote>"La arquitectura debe hablar de su lugar y su tiempo, pero su voz debe ser eterna."</blockquote>
+        <cite>— Torres Clavé</cite>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contacto">
+        <div class="contact__grid">
+
+            <div class="contact__info" data-reveal>
+                <h2>Comienza tu<br>proyecto</h2>
+                <p>Cada hogar cuenta una historia. Cuéntanos la tuya y hagamos realidad un espacio que refleje tu conexión con la naturaleza.</p>
+                <div class="contact__rows">
+                    <div class="contact__row">
+                        <span class="contact__label">Email</span>
+                        <a href="mailto:hola@limastudio.com">hola@limastudio.com</a>
+                    </div>
+                    <div class="contact__row">
+                        <span class="contact__label">Teléfono</span>
+                        <a href="tel:+62361234567">+62 361 234 567</a>
+                    </div>
+                    <div class="contact__row">
+                        <span class="contact__label">Estudio</span>
+                        <span>Ubud, Bali, Indonesia</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact__form-wrap" data-reveal>
+                <form id="form" class="form">
+                    <div class="form__field">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form__field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form__field">
+                        <label for="type">Tipo de Proyecto</label>
+                        <select id="type">
+                            <option value="">Selecciona una opción</option>
+                            <option>Villa Residencial</option>
+                            <option>Vivienda Ecológica</option>
+                            <option>Espacio Comercial</option>
+                            <option>Renovación</option>
+                        </select>
+                    </div>
+                    <div class="form__field">
+                        <label for="msg">Cuéntanos tu idea</label>
+                        <textarea id="msg" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--full">Enviar Mensaje</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <h3>LIMA STUDIO</h3>
+                <p>Arquitectura sostenible que honra la naturaleza</p>
+            </div>
+            <div class="footer__cols">
+                <div class="footer__col">
+                    <h4>Navegación</h4>
+                    <a href="#proyecto">Proyecto</a>
+                    <a href="#galeria">Galería</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="footer__col">
+                    <h4>Redes</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">Pinterest</a>
+                    <a href="#">Behance</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Lima Studio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox__bg"></div>
+        <div class="lightbox__inner">
+            <img src="" alt="" id="lbImg">
+            <button class="lightbox__close" id="lbClose">&times;</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
